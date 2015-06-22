@@ -207,7 +207,6 @@ namespace Antropod.MathParser
                 Match('(');
                 result = Expression();
                 Match(')');
-                return result;
             }
             else if (IsAlpha(look))
             {
